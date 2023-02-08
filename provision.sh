@@ -45,5 +45,11 @@ systemctl restart apache2
 
 systemctl enable zabbix-server zabbix-agent apache2
 systemctl restart zabbix-server zabbix-agent apache2
-echo "now check if zabbix is running visiting your_ip/zabbix"
-echo "your ip addresses are: `ip a | grep inet | grep -v inet6| grep -v 127.0.0.1`"
+echo "======================================================================="
+echo "======================================================================="
+echo "== now check if zabbix is running visiting your_ip/zabbix"
+echo "== your ip addresses are: `ip a | grep inet | grep -v inet6| grep -v 127.0.0.1`"
+echo "== login: Admin"
+echo "== password: zabbix"
+echo "======================================================================="
+echo "======================================================================="
